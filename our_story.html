@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Our Custom CSS -->
+<link rel="stylesheet" href="style2.css">
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./index.js">
+    </script>
+  <title>MyRedFolder | Our Story</title>
+</head>
+<body id="scroll-top">
+  <div id="wrapper">
+    <div class="overlay"></div>
+     
+         <!-- Sidebar -->
+     <nav class="navbar navbar-inverse fixed-top mobile" id="sidebar-wrapper" role="navigation">
+      <ul class="nav sidebar-nav">
+        <div class="sidebar-header">
+        <div class="sidebar-brand mb-2">
+          <a href="./index.html"><img src="./resources/css/logo.png" class="w-100" alt=""></a>
+        </div>
+      </div>
+        <li><a href="./index.html"> <i class="fa fa-angle-double-right"></i> HOME</a></li>
+        <li><a href="./products.html"> <i class="fa fa-angle-double-right"></i> PRODUCTS</a></li>
+        <li><a href="./our_story.html" class="active"> <i class="fa fa-angle-double-right"></i> OUR STORY</a></li>
+        <li><a href="./community.html"> <i class="fa fa-angle-double-right"></i> COMMUNITY</a></li>
+        <li><a href="./contact_us.html"> <i class="fa fa-angle-double-right"></i> CONTACT US</a></li>
+        <li><a href="./profile.html"> <button class="sign-in-btn btn">LOG IN <i class="fa fa-chevron-down ml-1"></i> </button></a>
+          <a href="register" class="registration">Register</a></li>
+        <li><a href="./index.html" class="hide">FOLLOW US</a></li>
+        
+        <li class="dropdown hide">
+        <a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Works <span class="caret"></span></a>
+      <ul class="dropdown-menu animated fadeInLeft hide" role="menu">
+       <div class="dropdown-header">Dropdown heading</div>
+       <li><a href="#pictures">Pictures</a></li>
+       <li><a href="#videos">Videeos</a></li>
+       <li><a href="#books">Books</a></li>
+       <li><a href="#art">Art</a></li>
+       <li><a href="#awards">Awards</a></li>
+       </ul>
+       </li>
+       
+       
+       </ul>
+    </nav>
+         <!-- /#sidebar-wrapper -->
+ 
+
+         <!--<Mobile nav toggler>-->
+         <div id="page-content-wrapper">
+           <div class="mobile-nav sticky-top mobile">
+             <div class="row">
+               <div class="col">
+                <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                  <span class="hamb-top"></span>
+                  <span class="hamb-middle"></span>
+                  <span class="hamb-bottom"></span>
+                </button>
+               </div>
+               <div class="col mobile-logo mr-3">
+                  <a href="./index.html"><img src="./resources/css/logo.png" class="w-100" alt=""></a>
+              </div>
+             </div>
+             
+            </div>
+         
+        
+        
+        <!--<Web nav>-->
+          <div class="row web-nav web d-flex justify-content-around py-3 sticky-top align-items-center">
+            <div class="col-md-2 ">
+              <a href="./index.html"><img src="./resources/css/logo.png" class="w-100" alt=""></a>
+            </div>
+            <div class="col-md-7 col-xl-6">
+              <div class="row text-center d-flex justify-content-center">
+                <div class="col col-xl-2 nav-item" title="Products">
+                  <a href="./products.html">PRODUCTS</a>
+                </div>
+                <div class="col nav-item" title="Our Story">
+                  <a href="./our_story.html" class="active">OUR STORY</a>
+                </div>
+                <div class="col col-xl-2 nav-item" title="Community">
+                  <a href="./community.html">COMMUNITY</a>
+                </div>
+                <div class="col nav-item" title="Contact Us">
+                  <a href="./contact_us.html">CONTACT US</a>
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="col-md-2 text-center">
+              <a href="./profile.html"> <button class="sign-in-btn btn">LOG IN <i class="fa fa-chevron-down ml-1"></i> </button></a> <br>
+              <a href="register" class="registration">Register</a>
+            </div>
+          </div>
+        <!--</Web nav>-->
+
+         <!--<Page Content>-->
+        
+          <div class="row zoom">
+            <div class="col-12 banner our-story-banner d-flex justify-content-center align-items-center">
+              <div class="row">
+                <div class="col-12 mx-auto">
+                  <h1 class="page-title"><span class="bg px-4 py-1">Our Story</span></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <section class="container-fluid our-story-container">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center">
+                <div class="row mb-4 our-story-div">
+                  <div class="col-12 col-md-11 col-lg-9 mx-auto align-self-center text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda perferendis sit repellendus veniam ab culpa. Ipsam rem consectetur sequi neque eos aliquid quasi maxime iusto assumenda incidunt eaque earum est dolorum at, perspiciatis nihil eum commodi dolor tempore cumque?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda perferendis sit repellendus veniam ab culpa. Ipsam rem consectetur sequi neque eos aliquid quasi maxime iusto assumenda incidunt eaque earum est dolorum at, perspiciatis nihil eum commodi dolor tempore cumque?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda perferendis sit repellendus veniam ab culpa. Ipsam rem consectetur sequi neque eos aliquid quasi maxime iusto assumenda incidunt eaque earum est dolorum at, perspiciatis nihil eum commodi dolor tempore cumque?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row hide">
+              <div class="col-11 col-md text-center d-flex justify-content-center align-items-center">
+                
+              </div>
+            </div>
+          </section>
+          
+            <section class="row our-story-why">
+              <div class="col-12 text-center">
+                <h3 class="section-header blue-header">That's Why We:</h3>
+              </div>
+              <div class="row mt-2 mb-5">
+                <div class="col-12 col-md-10 mx-auto">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-8 col-md-5 col-xl shadow card m-3 py-5 zoom">
+                      <i class="fa fa-check-circle fa-2x fa-icon ml-2"></i> <br>
+                      <p class="mx-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-8 col-md-5 col-xl shadow card m-3 py-5 zoom">
+                      <i class="fa fa-desktop fa-2x fa-icon ml-2"></i> <br>
+                      <p class="mx-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-8 col-md-5 col-xl shadow card m-3 py-5 zoom">
+                      <i class="fa fa-bolt fa-2x fa-icon ml-2"></i> <br>
+                      <p class="mx-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-8 col-md-5 col-xl shadow card m-3 py-5 zoom">
+                      <i class="fa fa-thumbs-up fa-2x fa-icon ml-2"></i> <br>
+                      <p class="mx-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="row">
+              <div class="col text-center">
+                <h3 class="section-header red-header my-4">Our Team</h3>
+              </div>
+            </section>
+
+            <section class="row our-team no-gutters justify-content-center align-items-center">
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-1">
+                  <img src="./resources/css/1.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>JEFF VRATANINA</h5>
+                      <h6>CHAIRMAN</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-2">
+                  <img src="./resources/css/2.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>CLAY MORRISON</h5>
+                      <h6>EBOD</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-3">
+                  <img src="./resources/css/3.png" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>CHUCK SABADIE</h5>
+                      <h6>EBOD</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-4">
+                  <img src="./resources/css/4.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>RUTH MORRISON</h5>
+                      <h6>EBOD</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-5">
+                  <img src="./resources/css/5.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>BRIDDANY DANIELLE</h5>
+                        <h6>EX ADMIN</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-6">
+                  <img src="./resources/css/6.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>GILBERTO RIVA</h5>
+                      <h6>LEAD PM</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-7">
+                  <img src="./resources/css/7.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>MARK MUNROE</h5>
+                      <h6>TRNG DIR</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-8">
+                  <img src="./resources/css/8.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>AMBER ANDRE</h5>
+                      <h6>PR DIR</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-9">
+                  <img src="./resources/css/9.jpeg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>CRYSTAL DENAI</h5>
+                      <h6>SMM</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-10">
+                  <img src="./resources/css/10.png" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>HANNA RIVAS</h5>
+                      <h6>PM</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-11">
+                  <img src="./resources/css/11.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>DISASTER RECOVERY TEAM</h5>
+                      <h6></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="embed-responsive embed-responsive-1by1" id="thumb-12">
+                  <img src="./resources/css/12.jpg" alt="" class="w-100 embed-responsive-item overlay-img zoom">
+                  <div class="middle">
+                    <div class="overlay-text">
+                      <h5>REUBEN MEADOR</h5>
+                      <h6>DIRECTOR</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col web hide">
+                <img src="./resources/css/logo.png" alt="" class="w-100">  
+              </div>
+            </section>
+
+
+          <!--<Page Content>-->
+        
+          <!--<Footer>-->
+          <!--<Footer>-->
+            <footer class="row d-flex justify-content-center">
+              <!--<Scroll to top>-->
+               <div class="col col-md-12 enter text-center mx-auto my-3 web">
+                 <a href="#scroll-top" class="smoothScroll">
+                   <span id="top-icon">Back to Top
+                     <i class="fa fa-angle-double-up fa-3x hide"></i>
+                   </span>
+                 </a>
+               </div>
+             <!--<Scroll to top>-->
+             <div class="col-12 col-md-9 col-lg-7 col-xl-5">
+               <div class="row footer-nav text-center">
+                 <div class="col nav-item">
+                   <a href="./products.html">PRODUCTS</a>
+                 </div>
+                 <div class="col nav-item">
+                   <a href="./our_story.html">OUR STORY</a>
+                 </div>
+                 <div class="col nav-item">
+                   <a href="./community.html">COMMUNITY</a>
+                 </div>
+                 <div class="col nav-item">
+                   <a href="./contact_us.html">CONTACT US</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col-8 text-center">
+               <p>Developed by the National Emergency Planning and Training Association</p>
+             </div>
+             <div class="col-8 text-center">
+               <p> &#169; 2020 NEPTA Family. All Rights Reserved.</p>
+             </div>
+             <div class="col-8 text-center">
+               <p><a href="terms">Terms and Conditions</a> | <a href="privacy">Privacy Policy</a></p>
+             </div> 
+           </footer>
+           <!--</Footer>-->
+        
+      </div>
+         <!-- /#page-content-wrapper -->
+ 
+     </div>
+     <!-- /#wrapper -->
+  
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./index.js">
+    </script>
+  <title>MyRedFolder | Profile</title>
+</head>
+<body id="scroll-top" class="profile-body">
+  <div id="wrapper">
+    <div class="overlay"></div>
+     
+         <!-- Sidebar -->
+     <nav class="navbar navbar-inverse fixed-top mobile" id="sidebar-wrapper" role="navigation">
+      <ul class="nav sidebar-nav">
+        <div class="sidebar-header">
+        <div class="sidebar-brand mb-2">
+          <a href="./index.html"><img src="./resources/css/logo.png" class="w-100" alt=""></a>
+        </div>
+      </div>
+        <li><a href="" class="active"> <i class="fa fa-angle-double-right"></i> HOME</a></li>
+        <li><a href=""> <i class="fa fa-angle-double-right"></i> EXPLORE</a></li>
+        <li><a href=""> <i class="fa fa-angle-double-right"></i> UPLOAD</a></li>
+        <li><a href=""> <i class="fa fa-angle-double-right"></i> FOLLOWING</a></li>
+        <li><a href=""> <i class="fa fa-angle-double-right"></i> PROFILE</a></li>
+        <li><a href="./index.html"> <button class="sign-out-btn btn">LOG OUT <i class="fa fa-chevron-down ml-1"></i> </button></a>
+        <li><a href="./index.html" class="hide">FOLLOW US</a></li>
+        
+        <li class="dropdown hide">
+        <a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Works <span class="caret"></span></a>
+      <ul class="dropdown-menu animated fadeInLeft hide" role="menu">
+       <div class="dropdown-header">Dropdown heading</div>
+       <li><a href="#pictures">Pictures</a></li>
+       <li><a href="#videos">Videeos</a></li>
+       <li><a href="#books">Books</a></li>
+       <li><a href="#art">Art</a></li>
+       <li><a href="#awards">Awards</a></li>
+       </ul>
+       </li>
+       
+       
+       </ul>
+    </nav>
+         <!-- /#sidebar-wrapper -->
+ 
+
+         <!--<Mobile nav toggler>-->
+         <div id="page-content-wrapper">
+           <div class="mobile-nav sticky-top mobile">
+             <div class="row">
+               <div class="col">
+                <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                  <span class="hamb-top"></span>
+                  <span class="hamb-middle"></span>
+                  <span class="hamb-bottom"></span>
+                </button>
+               </div>
+               <div class="col mobile-logo mr-3">
+                  <a href="./index.html"><img src="./resources/css/logo.png" class="w-100" alt=""></a>
+              </div>
+             </div>
+             
+            </div>
+         
+            <div class="container">
+              <!--<Web nav>-->
+              <div class="row profile-nav d-flex align-items-center web sticky-top">
+                <div class="col text-center profile-nav-item py-2">
+                  <a href="./index.html">
+                    <i class="fa fa-home py-2"></i>
+                    <p>Home</p>
+                  </a>
+                </div>
+                <div class="col text-center profile-nav-item py-2">
+                  <a href="">
+                    <i class="fa fa-search py-2"></i>
+                    <p>Explore</p>
+                  </a>
+                </div>
+                <div class="col text-center profile-nav-item py-2 profile-active">
+                  <a href="">
+                    <i class="fa fa-upload py-2"></i>
+                    <p>Upload</p>
+                  </a>
+                </div>
+                <div class="col text-center profile-nav-item py-2">
+                  <a href="">
+                    <i class="fa fa-comment py-2"></i>
+                    <p>Following</p>
+                  </a>
+                </div>
+                <div class="col text-center profile-nav-item py-2">
+                  <a href="">
+                    <i class="fa fa-id-card py-2"></i>
+                    <p>Profile</p>
+                  </a>
+                </div>
+              </div>
+              
+              <!--</Web nav>-->
+
+              <!--<Page Content>-->
+              <div class="row">
+                <div class="col-12 col-md-3 about-col pt-3">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-11">
+                      <h6>About</h6>
+                    </div>
+                    <div class="col-7 col-sm-5 col-md-12 col-lg-10 col-xl-8">
+                      <figure class="my-3">
+                        <a href="">
+                          <img src="./resources/css/5.jpg" alt="" class="w-100 rounded">
+                        </a>
+                        <figcaption class="text-center mt-2">
+                          Briddany Meador <br>
+                          <a href="">@Thickems</a>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="row d-flex justify-content-center mb-4">
+                    <div class="col-11 col-md-12">
+                      <button class="btn btn-success w-100 text-center">Following</button>
+                    </div>
+                  </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-11 col-md-12 text-center">
+                      <p class="bold">23 Posts</p>
+                      <a href=""><p>19,999 Followers</p></a>
+                      <a href=""><p>24 Following</p></a>
+                      <p class="text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum ea eveniet illo, architecto nobis quia veritatis. Pariatur, harum ex.</p>
+                      <div class="row d-flex justify-content-center text-center">
+                        <div class="col-10 col-sm-6 col-md-12">
+                          <div class="row align-items-center my-2 d-flex justify-content-center">
+                            <div class="col-3 col-md-4 col-lg col-xl-3">
+                              <img src="./resources/css/profile_logo.jpg" class="w-100 rounded" alt="">
+                            </div>
+                            <div class="col">
+                              <a href="">briddanymeador.com</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 gallery-col pt-3">
+                  <div class="row text-left d-flex justify-content-center">
+                    <div class="col-11 col-md-11">
+                      <a href="" class="mr-2">All</a>
+                      <a href="" class="mr-2 active">Photos</a>
+                      <a href="" class="mr-2">Videos</a>
+                    </div>
+                    <div class="col-5 col-md-5 embed-responsive embed-responsive-1by1 m-2">
+                      <img src="./resources/css/gallery_1.jfif" alt="" class="embed-responsive-item">
+                    </div>
+                    <div class="col-5 col-md-5 embed-responsive embed-responsive-1by1 m-2">
+                      <img src="./resources/css/gallery_2.jfif" alt="" class="embed-responsive-item">
+                    </div>
+                    <div class="col-5 col-md-5 embed-responsive embed-responsive-1by1 m-2">
+                      <img src="./resources/css/gallery_3.jfif" alt="" class="embed-responsive-item">
+                    </div>
+                    <div class="col-5 col-md-5 embed-responsive embed-responsive-1by1 m-2">
+                      <img src="./resources/css/gallery_4.jfif" alt="" class="embed-responsive-item">
+                    </div>
+                    <div class="col-5 col-md-5 embed-responsive embed-responsive-1by1 m-2">
+                      <img src="./resources/css/gallery_5.jfif" alt="" class="embed-responsive-item">
+                    </div>
+                    <div class="col-5 col-md-5 embed-responsive embed-responsive-1by1 m-2">
+                      <img src="./resources/css/gallery_6.jfif" alt="" class="embed-responsive-item">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3 about-col pt-3 suggestions">
+                  <div class="row no-gutters">
+                    <div class="col-11 col-md-12 mx-auto">
+                      <h6>Suggestions</h6>
+                      <div class="row no-gutters d-flex">
+                        <div class="col-9 col-sm-6 col-md-12">
+                          <div class="row">
+                            <div class="col-3 col-md-4 col-lg-3 my-2">
+                              <img src="./resources/css/1.jpg" alt="" class="w-100 rounded suggestions-img">
+                            </div>
+                            <div class="col-8 col-md col-lg-9 my-2">
+                              <a href="">Chet Youbetcha</a>
+                              <p>New Haven, CT</p>
+                            </div>
+                          
+                            <div class="col-3 col-md-4 col-lg-3 my-2">
+                              <img src="./resources/css/2.jpg" alt="" class="w-100 rounded suggestions-img">
+                            </div>
+                            <div class="col-8 col-md col-lg-9 my-2">
+                              <a href="">Max Power</a>
+                              <p>Lehigh, NJ</p>
+                            </div>
+                          
+                            <div class="col-3 col-md-4 col-lg-3 my-2">
+                              <img src="./resources/css/3.png" alt="" class="w-100 rounded suggestions-img">
+                            </div>
+                            <div class="col-8 col-md col-lg-9 my-2">
+                              <a href="">Johnny Bravo</a>
+                              <p>Melbourne, FL</p>
+                            </div>
+                          
+                            <div class="col-3 col-md-4 col-lg-3 my-2">
+                              <img src="./resources/css/4.jpg" alt="" class="w-100 rounded suggestions-img">
+                            </div>
+                            <div class="col-8 col-md col-lg-9 my-2">
+                              <a href="">Jessica Day</a>
+                              <p>San Diego, CA</p>
+                            </div>
+                          
+                            <div class="col-3 col-md-4 col-lg-3 my-2">
+                              <img src="./resources/css/6.jpg" alt="" class="w-100 rounded suggestions-img">
+                            </div>
+                            <div class="col-8 col-md col-lg-9 my-2">
+                              <a href="">Avery Mann</a>
+                              <p>Springfield, IL</p>
+                            </div> 
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row d-flex justify-content-center mt-5">
+                    <div class="col-md-12">
+                      <div class="row d-flex justify-content-center">
+                        <div class="col-11 col-md-12">
+                          <h6>Trending</h6>
+                        </div>
+                        <div class="col-5 embed-responsive embed-responsive-1by1 m-1">
+                          <img src="./resources/css/trending_1.jfif" alt="" class="embed-responsive-item">
+                        </div>
+                        <div class="col-5 embed-responsive embed-responsive-1by1 m-1">
+                          <img src="./resources/css/trending_2.jfif" alt="" class="embed-responsive-item">
+                        </div>
+                        <div class="col-5 embed-responsive embed-responsive-1by1 m-1">
+                          <img src="./resources/css/trending_3.jfif" alt="" class="embed-responsive-item">
+                        </div>
+                        <div class="col-5 embed-responsive embed-responsive-1by1 m-1">
+                          <img src="./resources/css/trending_4.jfif" alt="" class="embed-responsive-item">
+                        </div>
+                        <div class="col-5 embed-responsive embed-responsive-1by1 m-1">
+                          <img src="./resources/css/trending_5.jfif" alt="" class="embed-responsive-item">
+                        </div>
+                        <div class="col-5 embed-responsive embed-responsive-1by1 m-1">
+                          <img src="./resources/css/trending_6.jfif" alt="" class="embed-responsive-item">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <!--<Page Content>-->
+          <!--<Footer>-->
+  <footer class="row d-flex justify-content-center">
+    <!--<Scroll to top>-->
+     <div class="col col-md-12 enter text-center mx-auto my-3 web hide">
+       <a href="#scroll-top" class="smoothScroll">
+         <span id="top-icon">Back to Top
+           <i class="fa fa-angle-double-up fa-3x hide"></i>
+         </span>
+       </a>
+     </div>
+   <!--<Scroll to top>-->
+   <div class="col-12 col-md-9 col-lg-7 col-xl-5">
+     <div class="row footer-nav text-center">
+       <div class="col nav-item">
+         <a href="./products.html">PRODUCTS</a>
+       </div>
+       <div class="col nav-item">
+         <a href="./our_story.html">OUR STORY</a>
+       </div>
+       <div class="col nav-item">
+         <a href="./community.html">COMMUNITY</a>
+       </div>
+       <div class="col nav-item">
+         <a href="./contact_us.html">CONTACT US</a>
+       </div>
+     </div>
+   </div>
+   <div class="col-8 text-center">
+     <p>Developed by the National Emergency Planning and Training Association</p>
+   </div>
+   <div class="col-8 text-center">
+     <p> &#169; 2020 NEPTA Family. All Rights Reserved.</p>
+   </div>
+   <div class="col-8 text-center">
+     <p><a href="terms">Terms and Conditions</a> | <a href="privacy">Privacy Policy</a></p>
+   </div> 
+ </footer>
+ <!--</Footer>-->
+      </div>
+         <!-- /#page-content-wrapper -->
+ 
+     </div>
+     <!-- /#wrapper -->
+  
+            
+
+</body>
+</html>
